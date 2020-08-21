@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#titulo {
+  text-align: center;
+  background-color: #C8E3F8;
+}
+
+#menu {
+  margin-bottom: 3%;
+}
+
+#menu button {
+  font-size: 1.1em;
+  margin-left: 0.5%;
+  padding: 0.15%;
+  background-color: #7BE382;
+}
+
+#tarefas {
+  list-style: none;
+  margin-left: 0.5%;
+  padding: 0.2%;
+  width: 40%;
+}
+
+#tarefas .elemento {
+  font-size: 1.1em;
+  background-color: lightcoral;
+  margin-bottom: 2%;
+}
+
+#tarefas .elemento input {
+  background-color: lightcoral;
+}
+
+#tarefas .elemento button {
+  background-color: lightcoral;
+  font-size: 1em;
+}
+
+#tarefas .elemento button:hover {
+  background-color: lightgreen;
+}
+
+.addBtn {
+  cursor: pointer;
+}
+
+.pausa {
+  font-size: 1em;
+  font-weight: bolder;
+  right: 0;
+  top: 0;
+  padding: 0.05% 1.5% 0.05% 1.5%;
+  cursor: pointer;
+}
+
+.pausa:hover {
+  background-color: blue;
+  color: white;
+}
+
+.fim {
+  font-size: 1em;
+  font-weight: bolder;
+  right: 0;
+  top: 0;
+  padding: 0.05% 1.5% 0.05% 1.5%;
+  cursor: pointer;
+}
+
+.fim:hover {
+  background-color: green;
+  color: white;
+}
+
+.excluir {
+  right: 0;
+  top: 0;
+  padding: 0.05% 1.5% 0.05% 1.5%;
+  cursor: pointer;
+}
+
+.excluir:hover {
+  background-color: red;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
