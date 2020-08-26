@@ -1,0 +1,22 @@
+{
+  "name": "tudo-time-tracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoKoury/Tudo-Time-Tracking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoKoury/Tudo-Time-Tracking/issues"
+  },
+  "homepage": "https://github.com/ThiagoKoury/Tudo-Time-Tracking#readme",
+  "dependencies": {
+    "jshint": "^2.12.0"
+  }
+}

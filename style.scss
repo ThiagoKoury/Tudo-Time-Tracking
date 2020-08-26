@@ -9,17 +9,6 @@
 
 }
 
-#menu{
-  margin-bottom: 3%;
-  button{
-    font-size: 1.1em;
-    margin-left: 0.5%;
-    padding: 0.15%;
-    background-color: #7BE382;
-
-  }
-}
-
 #tarefas{
   list-style: none;
   margin-left: 0.5%;
@@ -31,23 +20,30 @@
     font-size: 1.1em;
     background-color: lightcoral;
     margin-bottom: 2%;
-
-    input{
-      background-color: lightcoral;
-    }
-    button{
-      background-color: lightcoral;
-    font-size: 1em;
-    }
-    button:hover{
-      background-color: lightgreen;
-    }
+    margin-right: 10%;
+    
   }
 }
 
 .addBtn{
   cursor: pointer;
 }
+
+.continua{
+  font-size: 1em;
+  font-weight: bolder;
+  right: 0;
+  top: 0;
+  padding: 0.05% 1.5% 0.05% 1.5%;
+  cursor: pointer; 
+}
+.continua:hover{
+  background-color: blue;
+  color: white;
+}
+
+
+
 
 .pausa{
   font-size: 1em;
@@ -62,6 +58,8 @@
   color: white;
 }
 
+
+
 .fim{
   font-size: 1em;
   font-weight: bolder;
@@ -74,6 +72,29 @@
   background-color: green;
   color: white;
 }
+
+
+
+.re{
+  font-size: 1em;
+  font-weight: bolder;
+  right: 0;
+  top: 0;
+  padding: 0.05% 1.5% 0.05% 1.5%;
+  cursor: pointer; 
+}
+.re:hover{
+  background-color: yellow;
+  color: white;
+}
+
+
+
+#tempo{
+  margin: 30px;
+}
+
+
 
 .excluir{
   right: 0;
