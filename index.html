@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Tudo-time-tracking</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Todo-time-tracking</title>
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-  <div id="titulo">
-    <h1> Todo-time-tracking</h1>
-  </div>
-  
 
- 
+    <center>
+        <div class="add-task-container">
+            <input type="text" id="new-task-name">
+            <button type="submit" id="add-task">
+        <i class="fas fa-plus"></i> 
+      </button>
+        </div>
+    </center>
 
-  <div id="nova">
-    <h2>Adicionar tarefa</h2>
-    <input type="text" id="input" placeholder="Nome da tarefa">
-  <span onclick="newElement()" onclick="inicia()" class="addBtn">Add</span>
-  </div>
+    <div class="task-list" id="list-task"></div>
 
-  <ul id="tarefas">
-  </ul>
-  
-  <script src="script.js"></script>
+    <!-- Base task -->
+    <div class="task-container" id="base-task" data-id-tarefa="">
+        <span class="name">oii</span>
+        <div class="time-container">
+            <span class="time">00:00:00</span>
+        </div>
+        <div id="buttons">
+            <button class="play-pause">
+        <i class="fas fa-play"></i>
+      </button>
+            <button class="stop">
+       <i class="fas fa-stop"></i>
+      </button>
+            <button class="toggleComplete">
+       <i class="fas fa-check"></i>
+      </button>
+            <button class="remove-task">
+        <i class="fas fa-times"></i>
+       </button>
+        </div>
+    </div>
 </body>
+
 </html>

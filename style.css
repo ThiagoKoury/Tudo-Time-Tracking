@@ -3,98 +3,25 @@
   padding: 0;
 }
 
-#titulo {
-  text-align: center;
-  background-color: #C8E3F8;
+#base-task {
+  display: none;
 }
 
-#tarefas {
-  list-style: none;
-  margin-left: 0.5%;
-  padding: 0.2%;
-  width: 40%;
-}
-
-#tarefas .elemento {
-  font-size: 1.1em;
-  background-color: lightcoral;
+.task-list {
   margin-bottom: 2%;
-  margin-right: 10%;
+  background-color: lightcoral;
+  width: 20%;
 }
 
-.addBtn {
-  cursor: pointer;
-}
-
-.continua {
-  font-size: 1em;
-  font-weight: bolder;
-  right: 0;
-  top: 0;
-  padding: 0.05% 1.5% 0.05% 1.5%;
-  cursor: pointer;
-}
-
-.continua:hover {
-  background-color: blue;
-  color: white;
-}
-
-.pausa {
-  font-size: 1em;
-  font-weight: bolder;
-  right: 0;
-  top: 0;
-  padding: 0.05% 1.5% 0.05% 1.5%;
-  cursor: pointer;
-}
-
-.pausa:hover {
-  background-color: blue;
-  color: white;
-}
-
-.fim {
-  font-size: 1em;
-  font-weight: bolder;
-  right: 0;
-  top: 0;
-  padding: 0.05% 1.5% 0.05% 1.5%;
-  cursor: pointer;
-}
-
-.fim:hover {
-  background-color: green;
-  color: white;
-}
-
-.re {
-  font-size: 1em;
-  font-weight: bolder;
-  right: 0;
-  top: 0;
-  padding: 0.05% 1.5% 0.05% 1.5%;
-  cursor: pointer;
-}
-
-.re:hover {
-  background-color: yellow;
-  color: white;
-}
-
-#tempo {
-  margin: 30px;
-}
-
-.excluir {
-  right: 0;
-  top: 0;
-  padding: 0.05% 1.5% 0.05% 1.5%;
-  cursor: pointer;
-}
-
-.excluir:hover {
-  background-color: red;
-  color: white;
+.task-list .task-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=style.css.map */
